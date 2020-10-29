@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/018eecbe50.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- JS -->
+        <script src="js/script.js" defer></script>
+        <title>Index</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <!-- Navbar -->
+            <nav class="nav">
+                <div class="inner-nav">
+                    <div class="inner-nav-item" id="nav-menu-wrap">
+                        <a href="#" class="nav-a" id="menu-a">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="inner-nav-item" id="nav-logo-wrap">
+                        <img
+                            src="img/nav-logo.png"
+                            alt="nav-logo"
+                            class="nav-img"
+                        />
+                    </div>
+                    <div class="inner-nav-item" id="cart-icon-wrap">
+                        <a href="#" class="nav-a" id="cart-a">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="items-in-cart-count"></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Text -->
+            <div class="header-text-wrap">
+                <h1 class="main-h1">Lorem, ipsum dolor.</h1>
+                <a href="#" class="shop-now-a">Shop Now</a>
+            </div>
+            <!-- Header Shopping Cart Overlay -->
+            <div class="header-overlay">
+                <!-- Cart Card -->
+                <div class="overlay-cart">
+                    <!-- Cart Inner Wrap -->
+                    <div class="overlay-cart-inner-wrap">
+                        <!-- Exit Button -->
+                        <div class="cart-exit-btn-wrap">
+                            <button class="cart-exit-btn">
+                                <i class="fas fa-times exit-btn-icon"></i>
+                            </button>
+                        </div>
+                        <!-- Cart Title -->
+                        <div class="cart-title-wrap">
+                            <h2 class="cart-title">Your Cart</h2>
+                        </div>
+                        <!-- Cart Item Container -->
+                        <div class="cart-item-container"></div>
+                        <!-- Cart Total & Clear Button -->
+                        <div class="cart-total-wrap">
+                            <h3 class="cart-total-h3">
+                                Your total: $<span class="total-price">0</span>
+                            </h3>
+                            <button class="clear-cart-btn" type="button">
+                                Clear Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="products-heading-wrap">
+                <h1 class="products-h1">Our Products</h1>
+                <div class="error-log">
+                    <h2>Sorry, products couldn't be loaded.</h2>
+                </div>
+            </div>
+            <div class="products-container"></div>
+        </main>
+    </body>
+</html>

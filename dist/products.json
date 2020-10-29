@@ -3,49 +3,49 @@
         "id": "1",
         "title": "Laptop",
         "price": "799.99",
-        "image": "/img/Product-Images/laptop-img.jpg"
+        "image": "img/Product-Images/laptop-img.jpg"
     },
     {
         "id": "2",
         "title": "iPhone 11",
         "price": "1199.99",
-        "image": "/img/Product-Images/iPhone11-img.jpg"
+        "image": "img/Product-Images/iPhone11-img.jpg"
     },
     {
         "id": "3",
         "title": "Monitor",
         "price": "399.99",
-        "image": "/img/Product-Images/monitor-img.jpg"
+        "image": "img/Product-Images/monitor-img.jpg"
     },
     {
         "id": "4",
         "title": "Keyboard",
         "price": "49.99",
-        "image": "/img/Product-Images/keyboard-img.jpg"
+        "image": "img/Product-Images/keyboard-img.jpg"
     },
     {
         "id": "5",
         "title": "Headset",
         "price": "59.99",
-        "image": "/img/Product-Images/headset-img.jpg"
+        "image": "img/Product-Images/headset-img.jpg"
     },
     {
         "id": "6",
         "title": "Mouse",
         "price": "39.99",
-        "image": "/img/Product-Images/mouse-img.jpg"
+        "image": "img/Product-Images/mouse-img.jpg"
     },
     {
         "id": "7",
         "title": "GeForce RTX 2080 SUPER",
         "price": "1399.99",
-        "image": "/img/Product-Images/GTX-2080-img.jpg"
+        "image": "img/Product-Images/GTX-2080-img.jpg"
     },
     {
         "id": "8",
         "title": "AMD Ryzen 5 3600",
         "price": "199.99",
-        "image": "/img/Product-Images/AMD-Ryzen-3600-img.jpg"
+        "image": "img/Product-Images/AMD-Ryzen-3600-img.jpg"
     }
     
 ]

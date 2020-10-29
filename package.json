@@ -1,0 +1,19 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Shopping cart using Local Storage",
+  "main": "dist/js/script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonSibRe/Shopping-Cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IonSibRe/Shopping-Cart/issues"
+  },
+  "homepage": "https://github.com/IonSibRe/Shopping-Cart"
+}
